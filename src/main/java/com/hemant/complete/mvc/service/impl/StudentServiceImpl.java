@@ -2,7 +2,7 @@ package com.hemant.complete.mvc.service.impl;
 
 import com.hemant.complete.mvc.dto.StudentDTO;
 import com.hemant.complete.mvc.exception.UserNotFoundException;
-import com.hemant.complete.mvc.mapper.StudentMapperImpl;
+import com.hemant.complete.mvc.mapper.StudentMapper;
 import com.hemant.complete.mvc.repository.StudentRepository;
 import com.hemant.complete.mvc.service.StudentService;
 import lombok.RequiredArgsConstructor;
@@ -18,7 +18,7 @@ public class StudentServiceImpl implements StudentService {
 
 
     private final StudentRepository studentRepository;
-    private final StudentMapperImpl studentMapper;
+    private final StudentMapper studentMapper;
 
 
     @Override
